@@ -1,0 +1,29 @@
+
+.sliding_img{
+    float:left;
+}
+.slider_articles{
+margin-left:15%;
+margin-right:15%;
+}
+sliding_text{
+
+    padding-left:1%;
+   padding-top:2%;
+   padding-right:4%;
+   font-size:small;
+text-align:left;
+font-family:"Helvetica Neue", Helvetica,Arial, sans-serif;
+    }
+    .slider_div:hover{
+
+background-color:black;
+border:1px solid red;
+    }
+    .slider_div{
+        margin-left:10%;
+        margin-right:10%;
+       color:white;
+background-color:black; 
+justify-content:space-between;
+    }
