@@ -1,15 +1,15 @@
 import React from 'react'
-import './HomePage.css'
+import './BingPage.css'
 import {Slide} from './Slide.jsx';
-import DropMenu from './DropMenu.jsx';
-function HomePage() {
+import DropMenu from './Curosel.jsx';
+function BingPage() {
   return (
     <div className="container">
          <nav className="navbar">
             <img  style={{width:'12%'}}src="https://logos-world.net/wp-content/uploads/2021/02/Microsoft-Bing-Logo-2020-present.png" alt="img"/>
-            <p>school</p>
-            <p>images</p>
-            <p>videos</p>
+            <p>School</p>
+            <p>Images</p>
+            <p>Videos</p>
             <p>Translate</p>
             <p>...</p>
        </nav> 
@@ -28,4 +28,4 @@ function HomePage() {
   )
 }
 
-export default HomePage;
+export default BingPage;
